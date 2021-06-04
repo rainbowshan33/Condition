@@ -23,10 +23,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    
     }
     @IBAction func appearance(_ sender: UITextField) {
-        
     }
     
     //分數
@@ -47,6 +45,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //重置
     @IBAction func restartButtonrestartrestart(_ sender: UIButton) {
         gender.selectedSegmentIndex = 0
         appearance.text = ""
